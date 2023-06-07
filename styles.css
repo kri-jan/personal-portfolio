@@ -1,0 +1,31 @@
+#welcome-section {
+  height: 100vh;
+  padding-top: 20%;
+}
+
+.portfolio-photo {
+  display: flex;
+  height: 100%;
+
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: fixed;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
